@@ -6,7 +6,7 @@
 ### What is pipeline ?
     
     1) In DevOps Terminology, a sequence of steps that happends both conditionally and unconditionally is referred as a pipeline.
-    2) A pileine is nothing but a groups of stages
+    2) A pipeline is nothing but a groups of stages
     3) A Stage is nothing but a groups of tasks
 
 ### We are going to write everything in the form of code, that's the pattern of GitOps.
