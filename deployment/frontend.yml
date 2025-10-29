@@ -16,4 +16,4 @@ pipelines:
         #vault_token: "AES:0MnF+owJSEFkTnSRpoRm3Q==:XnoIrHIhEi1FmIt2UFmPY8rf+H03P2Pv7VE7SRt4Zus="
     environment_variables:
         COMP: frontend
-    template: App-Deployment-Template
+    #template: App-Deployment-Template
