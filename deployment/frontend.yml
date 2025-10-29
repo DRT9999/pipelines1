@@ -26,7 +26,7 @@ pipelines:
           environment_variables:
             ENV: dev
           secure_variables:
-              MYSQL_PSW: "AES:UeSGjqv2jBp/etz6xRrSrw==:vaAKZfVkb+mJJS7vkgLwSA==" 
+              MYSQL_PSW: "AES:wUPVmEIBjTBeErwjNAQToA==:1rmr3YBEm5BQQM67wYdSIQ==" 
           jobs:
             Build:
               tasks:
@@ -41,7 +41,7 @@ pipelines:
             environment_variables:
               ENV: qa
           secure_variables:
-              MYSQL_PSW: "AES:UeSGjqv2jBp/etz6xRrSrw==:vaAKZfVkb+mJJS7vkgLwSA==" 
+              MYSQL_PSW: "AES:wUPVmEIBjTBeErwjNAQToA==:1rmr3YBEm5BQQM67wYdSIQ==" 
           jobs:
             Build:
               tasks:
@@ -56,7 +56,7 @@ pipelines:
             environment_variables:
               ENV: stage
           secure_variables:
-              MYSQL_PSW: "AES:UeSGjqv2jBp/etz6xRrSrw==:vaAKZfVkb+mJJS7vkgLwSA==" 
+              MYSQL_PSW: "AES:wUPVmEIBjTBeErwjNAQToA==:1rmr3YBEm5BQQM67wYdSIQ==" 
           jobs:
             Build:
               tasks:
@@ -72,7 +72,7 @@ pipelines:
           environment_variables:
               ENV: prod
           secure_variables:
-              MYSQL_PSW: "AES:UeSGjqv2jBp/etz6xRrSrw==:vaAKZfVkb+mJJS7vkgLwSA==" 
+              MYSQL_PSW: "AES:wUPVmEIBjTBeErwjNAQToA==:1rmr3YBEm5BQQM67wYdSIQ==" 
           approval:
             type: manual
             allow_only_on_success: true
