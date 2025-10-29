@@ -18,7 +18,7 @@ pipelines:
         COMP: backend
     #template: App-Deployment-Template
 
-        stages:                                       
+    stages:                                       
       - dev:                                        # Name of the stage 
           fetch_materials: true 
           keep_artifacts: false
